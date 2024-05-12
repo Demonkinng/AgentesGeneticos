@@ -41,7 +41,7 @@ public class Agente1 extends Agent {
             int iteraccion = 5;
             int evoluciones = 8;
             Genetica genetica = new Genetica();
-            int[] xy = genetica.evolucionar(genetica.get_Poblacion(genetica.configurarAG(tamanioPoblacion, longCromosoma)), iteraccion, evoluciones);
+            int[] xy = genetica.evolucionar(genetica.get_Poblacion(genetica.configurarAG(tamanioPoblacion, longCromosoma)), evoluciones, iteraccion);
             int x = xy[0];
             int y = xy[1];
             // enviar (x, y) al Agente 2
