@@ -3,9 +3,7 @@ package agentes;
 import Agenetico.Genetica;
 import jade.core.Agent;
 import jade.core.behaviours.Behaviour;
-import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
-import modelo.Cliente;
 
 /**
  * Clase que se encarga de la configuracion del Agente 1.
